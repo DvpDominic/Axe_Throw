@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1591167429797524}
+  m_IsPrefabParent: 1
+--- !u!1 &1591167429797524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4682683038998322}
+  - component: {fileID: 33397517771553690}
+  - component: {fileID: 23269762224339060}
+  - component: {fileID: 114949162356464994}
+  - component: {fileID: 114301802837886612}
+  - component: {fileID: 65467747032935632}
+  m_Layer: 8
+  m_Name: M1014
+  m_TagString: Metal
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4682683038998322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_LocalRotation: {x: -0, y: -0.9659258, z: -0, w: 0.2588193}
+  m_LocalPosition: {x: 118.42919, y: 145.65952, z: 8.950287}
+  m_LocalScale: {x: 29.100046, y: 29.100002, z: 29.100048}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 30, z: 180}
+--- !u!23 &23269762224339060
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 7e6dcd20b080a0546b31ec8e0d790994, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33397517771553690
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_Mesh: {fileID: 4300000, guid: d208a7ae373829f4d8d6887d74b2c735, type: 3}
+--- !u!65 &65467747032935632
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.049801692, y: 0.0028102729, z: 0.009530717}
+  m_Center: {x: -0.00006176625, y: -0.00016237021, z: 0.000042146537}
+--- !u!114 &114301802837886612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac922f23d27ee00458caee77032f4cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: M1014
+  itemInfo: A SHOTGUN
+  itemType: 2
+  itemIcon: {fileID: 21300000, guid: cf49e19292889d64cbb31f4f8b37a4d1, type: 3}
+  ObjectKnown: 0
+  revealWait: 1
+  Distance: 0.8
+  MovementTime: 0.4
+  AmmosQuantity: 0
+  WeaponTarget: {fileID: 0}
+  HealthValue: 0
+  TargetObject: {fileID: 0}
+--- !u!114 &114949162356464994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591167429797524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee988fc82bbf5441b278d6a39828e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableType: 11
+  ItemName: AN M1014 SHOTGUN
+  highlightType: 0
+  normalMaterial: {fileID: 0}
+  highlightedMaterial: {fileID: 0}
+  highlightingLight: {fileID: 0}
+  raycasted: 0

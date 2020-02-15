@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1487620771295542}
+  m_IsPrefabParent: 1
+--- !u!1 &1487620771295542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4757614069476894}
+  - component: {fileID: 33635089833886444}
+  - component: {fileID: 23051842362126554}
+  - component: {fileID: 114306927903465350}
+  - component: {fileID: 114769308640135472}
+  - component: {fileID: 65496366175758676}
+  m_Layer: 8
+  m_Name: PP19
+  m_TagString: Metal
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757614069476894
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_LocalRotation: {x: 0.37794432, y: 0.37794524, z: -0.5976285, w: -0.5976251}
+  m_LocalPosition: {x: 118.7972, y: 145.6596, z: 9.110291}
+  m_LocalScale: {x: 0.5958384, y: 0.59583867, z: 0.59583867}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -64.619, z: 90.00001}
+--- !u!23 &23051842362126554
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: c016c5dbff7debe4e8cf2ac959713fee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33635089833886444
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_Mesh: {fileID: 4300000, guid: 97b5196ec4c4abd479f0c8ea91a368f1, type: 3}
+--- !u!65 &65496366175758676
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12932594, y: 0.5470254, z: 1.404731}
+  m_Center: {x: -0.01311118, y: -0.12621428, z: -0.059987582}
+--- !u!114 &114306927903465350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee988fc82bbf5441b278d6a39828e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableType: 11
+  ItemName: A PP19 SMG
+  highlightType: 0
+  normalMaterial: {fileID: 0}
+  highlightedMaterial: {fileID: 0}
+  highlightingLight: {fileID: 0}
+  raycasted: 0
+--- !u!114 &114769308640135472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487620771295542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac922f23d27ee00458caee77032f4cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: PP19
+  itemInfo: AN SMG
+  itemType: 1
+  itemIcon: {fileID: 21300000, guid: 7e3853081af305e48bacfd474ba16bba, type: 3}
+  ObjectKnown: 0
+  revealWait: 1
+  Distance: 0.8
+  MovementTime: 0.4
+  AmmosQuantity: 0
+  WeaponTarget: {fileID: 0}
+  HealthValue: 0
+  TargetObject: {fileID: 0}
